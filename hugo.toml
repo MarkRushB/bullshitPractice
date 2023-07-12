@@ -3,6 +3,7 @@ title = "废话练习"
 Author = "Mark"
 # disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
+
 [params]
   # color style
   color = 'linen'                           # linen, wheat, gray, light
@@ -27,3 +28,18 @@ Author = "Mark"
   gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   math = true                               # enable KaTex math typesetting globally
+
+[params.giscus]
+  data-repo="MarkRushB/bullshitPractice"
+  data-repo-id="R_kgDOJvk5vw"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOJvk5v84CX2WM"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="1"
+  data-input-position="top"
+  data-theme="noborder_dark"
+  data-lang="zh-CN"
+  data-loading="lazy"
+  crossorigin="anonymous"

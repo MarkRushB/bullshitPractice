@@ -8,3 +8,15 @@
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.eot") format("embedded-opentype"),
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.ttf") format("truetype");
   };
+
+main {
+    font-family: "Songti";
+}
+
+/* for code */
+code,
+kbd,
+pre,
+samp {
+    font-family: "Songti";
+}
