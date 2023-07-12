@@ -9,14 +9,7 @@
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.ttf") format("truetype");
   };
 
-main {
-    font-family: "Songti";
-}
 
-/* for code */
-code,
-kbd,
-pre,
-samp {
+main {
     font-family: "Songti";
 }
