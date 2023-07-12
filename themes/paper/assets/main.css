@@ -906,7 +906,7 @@ body {
   --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
   --tw-prose-invert-th-borders: #4b5563;
   --tw-prose-invert-td-borders: #374151;
-  font-size: 1rem;
+  font-size: 0.7rem;
   line-height: 1.75;
 }
 
@@ -1482,7 +1482,7 @@ body {
 }
 
 .text-\[1\.6rem\] {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 .text-lg {
@@ -1617,7 +1617,7 @@ body {
 }
 
 article {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.75rem;
   line-height: 1.8;
   --tw-text-opacity: 1;
