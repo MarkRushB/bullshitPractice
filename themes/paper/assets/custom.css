@@ -3,6 +3,7 @@
     font-style: normal;
     font-family: "Songti";
     font-display: swap;
+    font-weight: normal;
     src: url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.woff2") format("woff2"),
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.woff") format("woff"),
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.eot") format("embedded-opentype"),

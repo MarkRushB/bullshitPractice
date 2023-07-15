@@ -17,9 +17,9 @@ Author = "Mark"
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'https://raw.githubusercontent.com/MarkRushB/bullshitPractice/main/frog.jpg'                 # gravatar email or image url
-  name = 'bullshitPractice'
-  bio = '“ 记录一些废话 ”'
+  # avatar = 'https://github.com/MarkRushB/bullshitPractice/blob/main/Xile.jpg?raw=true'                 # gravatar email or image url
+  name = ' '
+  bio = '废话是需要练习的，不然就会充满意义。'
 
 
   # misc
