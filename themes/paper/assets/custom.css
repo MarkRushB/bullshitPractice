@@ -7,7 +7,7 @@
     src: url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.woff2") format("woff2"),
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.woff") format("woff"),
          url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.eot") format("embedded-opentype"),
-         url("themes/paper/static/Songti/SourceHanSerifCN-Regular-1.ttf") format("truetype");
+         url("themes/paper/static/Songti/SourceHanSerifCN-Regular.ttf") format("truetype");
   };
 
 
