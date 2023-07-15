@@ -451,7 +451,7 @@ body {
 
 :is(.dark body) {
   /* background-color: rgb(0 0 0 / 0.9); */
-  background-image: url('assets/p0457_l.png');
+  background-image: url('https://raw.githubusercontent.com/MarkRushB/bullshitPractice/main/assets/p0457_l.png');
   background-size: cover; /* 可选，调整图像大小以适应背景 */
 }
 
