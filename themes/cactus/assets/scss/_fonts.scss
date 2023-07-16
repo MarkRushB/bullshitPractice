@@ -4,12 +4,3 @@
   font-display: swap;
   src: local("JetBrains Mono"), local("JetBrains-Mono"), url("../lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2") format("woff2"), url("../lib/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff") format("woff"), url("../lib/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot") format("embedded-opentype"), url("../lib/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf") format("truetype");
 };
-@font-face {
-  font-style: normal;
-  font-family: "Songti";
-  font-display: swap;
-  src: url("themes/cactus/static/lib/Songti/SourceHanSerifCN-Regular-1.woff2") format("woff2"),
-       url("themes/cactus/static/lib/Songti/SourceHanSerifCN-Regular-1.woff") format("woff"),
-       url("themes/cactus/static/lib/Songti/SourceHanSerifCN-Regular-1.eot") format("embedded-opentype"),
-       url("themes/cactus/static/lib/Songti/SourceHanSerifCN-Regular-1.ttf") format("truetype");
-};
