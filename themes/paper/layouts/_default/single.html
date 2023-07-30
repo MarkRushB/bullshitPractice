@@ -54,50 +54,23 @@
     {{ end }}
   </nav>
   {{ end }}
+  
+  <!-- Waline -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
-  <!-- Disqus -->
-  {{ if and site.DisqusShortname (not (eq .Params.comments false)) }}
-  <div class="mt-24" id="disqus_thread"></div>
-  <script>
-    const disqusShortname = '{{ site.DisqusShortname }}';
-    const script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
+    init({
+      el: '#waline',
+      serverURL: 'https://waline-blue-one.vercel.app/ui',
+      comment: true, // 评论数统计
+      emoji: [
+        '//unpkg.com/@waline/emojis@1.1.0/tw-emoji'
+      ],
+    });
   </script>
-  {{ end }}
 
-  <!-- GraphComment -->
-  {{ if and site.Params.graphCommentId (not (eq .Params.comments false)) }}
-  <div class="mt-24" id="graphcomment"></div>
-  <script type="text/javascript">
-    var __semio__params = {
-      graphcommentId: '{{ site.Params.graphCommentId  }}',
-      behaviour: {
-        //  uid: "...",
-      },
-      // configure your variables here
-    };
 
-    function __semio__onload() {
-      __semio__gc_graphlogin(__semio__params);
-    }
-
-    (function () {
-      var gc = document.createElement('script');
-      gc.type = 'text/javascript';
-      gc.async = true;
-      gc.onload = __semio__onload;
-      gc.defer = true;
-      gc.src =
-        'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-      (
-        document.getElementsByTagName('head')[0] ||
-        document.getElementsByTagName('body')[0]
-      ).appendChild(gc);
-    })();
-  </script>
-  {{ end }}
 
 </article>
 
