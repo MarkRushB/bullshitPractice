@@ -6,8 +6,10 @@
   <div id="waline"></div>
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
-
     init({
+      locale: {
+        placeholder: "欢迎评论!\n- 上传图片后需要等待，直到图片链接出现再点击submit \n- 上传后会显示\" ![uploading 图片名]() \"，请等待直到出现\" ![图片名](链接) \"后再提交"
+      },
       el: '#waline',
       serverURL: 'https://www.whatsinyoureyes.art/',
       comment: true, // 评论数统计
