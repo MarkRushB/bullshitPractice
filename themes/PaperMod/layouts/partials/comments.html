@@ -14,6 +14,20 @@
       emoji: [
         '//unpkg.com/@waline/emojis@1.1.0/tw-emoji'
       ],
+      imageUploader: function (file) {
+        let formData = new FormData();
+        let headers = new Headers();
+        formData.append('file', file);
+        headers.append('Authorization', 'Bearer 803|He7DssMjQWYxxsrbhu72p55O9f4RJxupkLUOWPDs');
+        headers.append('Accept', 'application/json');
+        return fetch('https://7bu.top/api/v1/upload', {
+            method: 'POST',
+            headers: headers,
+            body: formData,
+        })
+            .then((resp) => resp.json())
+            .then((resp) => resp.data.links.url);
+    },
     });
     Fancybox.bind('#waline .wl-content img');
   </script>
