@@ -32,22 +32,15 @@
     />
   </div>
   {{ end }}<!---->
-
+  {{ if site.Params.name }}
   <div>
-    <h1 class="bullshit mb-2 mt-3">
-      废话是需要练习的<br>不然就会充满意义
-    </h1>
-  </div>
-
-
-
-  <!-- <div>
     <h1 class="mb-2 mt-3 text-[1.6rem] font-bold">{{ site.Params.name }}</h1>
-    <div class="break-words">
-      {{ site.Params.bio }}
-    </div>
-  </div> -->
-
+    <!-- <div class="break-words">
+      {{ site.Params.bio | default (print `A personal blog by `
+      site.Params.name) }}
+    </div> -->
+  </div>
+  {{ end }}
 </div>
 {{ end }}<!---->
 

@@ -13,7 +13,6 @@
     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
   />
 
-
   <!-- Title -->
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
 
@@ -52,7 +51,7 @@
 
   <!-- Preload -->
   {{ $dark_icon := "theme.png" }} {{ if site.Params.monoDarkIcon }} {{
-  $dark_icon := "theme.svg" }} {{ end }}
+  $dark_icon = "theme.svg" }} {{ end }}
   <link rel="preload" as="image" href="{{ $dark_icon | absURL }}" />
 
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}

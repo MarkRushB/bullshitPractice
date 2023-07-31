@@ -1,7 +1,6 @@
 theme = "paper"
-title = "废话练习"
+title = "看见"
 Author = "Mark"
-# disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
 
 [params]
@@ -9,37 +8,16 @@ Author = "Mark"
   color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
-  # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
-  # github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
   instagram = 'iandzsc'           # instagram.com/YOUR_INSTAGRAM_ID
-  # linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-  rss = true                                # show rss icon
+
 
   # home page profile
-  # avatar = 'https://github.com/MarkRushB/bullshitPractice/blob/main/Xile.jpg?raw=true'                 # gravatar email or image url
-  name = ' '
-  bio = '废话是需要练习的，不然就会充满意义。'
+  # avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  name = 'What is in your eyes？'
+  bio = '照片收集活动'
 
 
   # misc
   disableHLJS = true                        # disable highlight.js
   monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   math = true                               # enable KaTex math typesetting globally
-
-[params.giscus]
-  data-repo="MarkRushB/bullshitPractice"
-  data-repo-id="R_kgDOJvk5vw"
-  data-category="Announcements"
-  data-category-id="DIC_kwDOJvk5v84CX2WM"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="1"
-  data-input-position="top"
-  data-theme="noborder_dark"
-  data-lang="zh-CN"
-  data-loading="lazy"
-  crossorigin="anonymous"
