@@ -21,6 +21,9 @@
 .wl-meta-head {
     order: 1;
 }
+.wl-empty {
+    order: 1;
+}
 
 .wl-cards {
     order: 2;
