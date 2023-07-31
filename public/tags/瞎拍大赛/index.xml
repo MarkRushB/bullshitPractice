@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>瞎拍大赛 on 看见</title>
+    <link>https://examplesite.com/tags/%E7%9E%8E%E6%8B%8D%E5%A4%A7%E8%B5%9B/</link>
+    <description>Recent content in 瞎拍大赛 on 看见</description>
+    <image>
+      <title>看见</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Jun 2023 10:27:21 +0800</lastBuildDate><atom:link href="https://examplesite.com/tags/%E7%9E%8E%E6%8B%8D%E5%A4%A7%E8%B5%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#1 玉液琼浆</title>
+      <link>https://examplesite.com/posts/%E7%8E%89%E6%B6%B2%E7%90%BC%E6%B5%86/</link>
+      <pubDate>Thu, 15 Jun 2023 10:27:21 +0800</pubDate>
+      
+      <guid>https://examplesite.com/posts/%E7%8E%89%E6%B6%B2%E7%90%BC%E6%B5%86/</guid>
+      <description>瞎拍大赛第一期，主题为「玉液琼浆」，照片标准：有水就行！👋</description>
+    </item>
+    
+  </channel>
+</rss>

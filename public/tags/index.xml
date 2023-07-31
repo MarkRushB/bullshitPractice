@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on 废话练习</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on 废话练习</description>
+    <title>Tags on 看见</title>
+    <link>https://examplesite.com/tags/</link>
+    <description>Recent content in Tags on 看见</description>
+    <image>
+      <title>看见</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Jun 2023 10:27:21 +0800</lastBuildDate><atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>瞎拍大赛</title>
+      <link>https://examplesite.com/tags/%E7%9E%8E%E6%8B%8D%E5%A4%A7%E8%B5%9B/</link>
+      <pubDate>Thu, 15 Jun 2023 10:27:21 +0800</pubDate>
+      
+      <guid>https://examplesite.com/tags/%E7%9E%8E%E6%8B%8D%E5%A4%A7%E8%B5%9B/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

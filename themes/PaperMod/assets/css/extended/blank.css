@@ -24,3 +24,6 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .wl-cards {
     order: 2;
 } */
+[data-waline] img {
+    max-height: 500px !important;
+}
