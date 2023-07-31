@@ -27,3 +27,14 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 [data-waline] img {
     max-height: 500px !important;
 }
+
+.commentTips {
+    font-size: 13px; /* 设置字体大小为12像素 */
+    color: rgb(53, 53, 53); /* 将字体颜色设为红色 */
+}
+.commentList {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+}
