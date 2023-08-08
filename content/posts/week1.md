@@ -26,7 +26,7 @@ draft: false
 ### 「他们在水边干什么？」
 ![](https://bu.dusays.com/2023/08/01/64c8027faef69.jpeg)
 在拼命奔跑
-![](https://github.com/MarkRushB/whatsinyoureyes/blob/main/oslo.jpg?raw=true)
+![](https://bu.dusays.com/2023/08/08/64d1b75f39289.jpg)
 在虚度时光
 ![](https://bu.dusays.com/2023/08/01/64c88f484a554.jpeg)
 在为了生活
@@ -64,7 +64,7 @@ draft: false
 
 ### 「水边小动物」
 想到这里，我先想到那块可怜的小鼠脑组织。
-![](https://github.com/MarkRushB/whatsinyoureyes/blob/main/czc.jpg?raw=true)
+![](https://bu.dusays.com/2023/08/08/64d1b75d91090.jpg)
 ![](https://bu.dusays.com/2023/08/01/64c84bacc9bea.jpeg)
 ![](https://bu.dusays.com/2023/08/02/64c9b66b1ccdd.jpg)
 
@@ -83,7 +83,7 @@ draft: false
 >一杯水
 
 对于爱人们来说，任何琼浆玉液也不上纪念日一起喝的水
-![](https://github.com/MarkRushB/whatsinyoureyes/blob/main/1c7a870340e72dad5b11f4994a0cb02c.jpeg?raw=true)
+![](https://bu.dusays.com/2023/08/08/64d1b75f1a94e.jpeg)
 买的不如自己泡的
 ![](https://bu.dusays.com/2023/08/01/64c90a0a4c96a.jpeg)
 >化掉的冰淇淋也是一种琼浆玉液
