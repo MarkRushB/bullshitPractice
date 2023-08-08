@@ -20,8 +20,6 @@ draft: false
 来自两位远在大洋两端的朋友，构图和主题却如此相似
 ![](https://bu.dusays.com/2023/08/01/64c82bf5547b9.jpeg)
 
----
-
 ![](https://bu.dusays.com/2023/08/02/64c9dd7f33beb.jpeg)
 亚特兰大水族馆里给海洋动物做出的人类特展
 
