@@ -39,3 +39,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     margin-bottom: 2%;
 
 }
+
+.video-shortcode {
+    max-width: auto;
+    height: 20%;
+}

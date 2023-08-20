@@ -77,3 +77,8 @@ pre:hover .copy-code {
 .wl-power {
     display: none;    
 }
+
+.video-shortcode {
+    max-width: auto;
+    height: 20%;
+}

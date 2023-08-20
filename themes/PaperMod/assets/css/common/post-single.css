@@ -404,3 +404,8 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.video-shortcode {
+    max-width: 100%;
+    height: auto;
+}
