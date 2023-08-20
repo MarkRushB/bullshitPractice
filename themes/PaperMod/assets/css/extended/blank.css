@@ -40,7 +40,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 }
 
-.video-shortcode {
-    max-width: auto;
-    height: 20%;
+.video-wrapper {
+    max-width: 100%;
+    height: auto;
 }
