@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>看见</title>
-    <link>https://examplesite.com/</link>
-    <description>Recent content on 看见</description>
+    <title>每周归档 on 看见</title>
+    <link>https://examplesite.com/tags/%E6%AF%8F%E5%91%A8%E5%BD%92%E6%A1%A3/</link>
+    <description>Recent content in 每周归档 on 看见</description>
     <image>
       <title>看见</title>
       <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,18 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Aug 2023 12:08:55 -0400</lastBuildDate><atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>#3 寻找外星人</title>
-      <link>https://examplesite.com/posts/%E5%AF%BB%E6%89%BE%E5%A4%96%E6%98%9F%E4%BA%BA/</link>
-      <pubDate>Sun, 20 Aug 2023 12:08:55 -0400</pubDate>
-      
-      <guid>https://examplesite.com/posts/%E5%AF%BB%E6%89%BE%E5%A4%96%E6%98%9F%E4%BA%BA/</guid>
-      <description>Week 3 (08/21 - 08/27)
-瞎拍大赛第三期，主题为「寻找外星人」，言简意赅，本期我们进军宇宙，根据三体黑暗森林法则的说法，宇宙中还有外星人的存在，也许离我们很远，也许就在我们身边。
-如果你遇到了外星人，请务必第一时间拍照并上传本次大赛，你的帮助将不会对人类的发展进程和宇宙探索起到任何作用。</description>
-    </item>
-    
+    <lastBuildDate>Sun, 20 Aug 2023 10:39:21 -0400</lastBuildDate><atom:link href="https://examplesite.com/tags/%E6%AF%8F%E5%91%A8%E5%BD%92%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week-2 归档: 真他妈烦</title>
       <link>https://examplesite.com/posts/week2/</link>
@@ -81,29 +70,6 @@ OK 以上就是第二期瞎拍大晒颁奖典礼的全部内容，大家下次�
 西式手磨稀豆浆
 晚安</description>
     </item>
-    
-    <item>
-      <title>#1 玉液琼浆</title>
-      <link>https://examplesite.com/posts/%E7%8E%89%E6%B6%B2%E7%90%BC%E6%B5%86/</link>
-      <pubDate>Mon, 31 Jul 2023 10:27:21 +0800</pubDate>
-      
-      <guid>https://examplesite.com/posts/%E7%8E%89%E6%B6%B2%E7%90%BC%E6%B5%86/</guid>
-      <description>Week 1 (07/31 - 08/06)
-瞎拍大赛第一期，主题为「玉液琼浆」，可以是你喝过的水，酒，汤，粥，饮料，甚至是小溪，河流，大海，总之有水就行💧，没水也没关系，只要你能跟水扯上关系。</description>
-    </item>
-    
-    <item>
-      <title>#2 真他妈烦</title>
-      <link>https://examplesite.com/posts/%E5%93%8E%E5%91%80%E7%B3%9F%E7%B3%95/</link>
-      <pubDate>Mon, 31 Jul 2023 10:27:21 +0800</pubDate>
-      
-      <guid>https://examplesite.com/posts/%E5%93%8E%E5%91%80%E7%B3%9F%E7%B3%95/</guid>
-      <description>Week 2 (08/07 - 08/13)
-瞎拍大赛第二期，主题为「真他妈烦」，言简意赅，有什么烦心事吗？比如说，刚买的冰淇淋掉在了地上，或者被老板痛批，再或者今天晚饭没有吃饱，藏在心里不如发出来。
-别人的也行。
-🤡</description>
-    </item>
-    
     
   </channel>
 </rss>
