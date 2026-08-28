@@ -1,5 +1,5 @@
 <div class="weekly-list">
 {{ range sort (where .Site.RegularPages "Params.week" "gt" 0) "Params.week" }}
-<a class="weekly-entry" href="{{ .RelPermalink }}"><span class="weekly-number">0{{ .Params.week }}</span><h2>{{ .Params.exhibitTitle }}</h2><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01.02" }}<span class="entry-year"> / 2023</span></time><span class="entry-arrow" aria-hidden="true">↗</span></a>
+<a class="weekly-entry" href="{{ .RelPermalink }}"><span class="weekly-number">第 0{{ .Params.week }} 期</span><h2>{{ .Params.exhibitTitle }}</h2><p class="weekly-excerpt">{{ if eq .Params.week 1 }}第一周的瞎拍大赛结束了。一滴眼药水、一杯酒、一片海，朋友们用各自的镜头，回应同一个关于水的主题。{{ else if eq .Params.week 2 }}收件箱里的拒信、做坏的饭、生活里的小意外。这一期，我们把烦心事拍下来，也一起笑一笑。{{ else }}外星人也许藏在咖啡机、玩具和小动物的表情里。第三周，我们重新打量身边熟悉的世界。{{ end }}</p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time><span class="entry-arrow">阅读全文 →</span></a>
 {{ end }}
 </div>

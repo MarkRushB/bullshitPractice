@@ -7,11 +7,12 @@
 <meta property="og:title" content="{{ .Title }} · 看见"><meta property="og:image" content="{{ "photos/display/64c82bf5547b9.webp" | absURL }}">
 <link rel="canonical" href="{{ .Permalink }}"><link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 <link rel="stylesheet" href="{{ "quiet.css" | relURL }}">
+<link rel="stylesheet" href="{{ "newspaper.css" | relURL }}">
 <script src="{{ "exhibit.js" | relURL }}" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">跳到正文</a>
-<header class="site-header"><a class="brand" href="{{ .Site.Home.RelPermalink }}">看见</a><nav aria-label="主导航"><a href="{{ .Site.Home.RelPermalink }}#issues">每周总结</a></nav></header>
+<header class="site-header"><div class="masthead"><p class="masthead-side">瞎拍照<br>说废话</p><a class="brand" href="{{ .Site.Home.RelPermalink }}">看见</a><p class="masthead-side masthead-right">日常影像<br>每周纪事</p></div><div class="edition-bar"><span>{{ if .Params.week }}{{ .Date.Format "2006 年 01 月 02 日" }}{{ else }}二〇二三年 · 夏季合订{{ end }}</span><nav aria-label="主导航"><a href="{{ .Site.Home.RelPermalink }}#issues">每周总结</a></nav><span>{{ with .Params.week }}第 0{{ . }} 期{{ else }}共三期{{ end }}</span></div></header>
 <main id="main">{{ block "main" . }}{{ end }}</main>
 <footer><span>看见 · 2023</span><a href="#main">回到顶部 ↑</a></footer>
 <dialog class="lightbox" aria-label="照片查看器"><div class="lightbox-bar"><span id="photo-counter" aria-live="polite"></span><button id="close-photo" aria-label="关闭照片">关闭 ×</button></div><button class="photo-prev" aria-label="上一张照片">←</button><img id="large-photo" alt=""><button class="photo-next" aria-label="下一张照片">→</button><div class="lightbox-caption"><span id="photo-caption"></span><a id="original-photo" target="_blank" rel="noopener">查看原图 ↗</a></div></dialog>
