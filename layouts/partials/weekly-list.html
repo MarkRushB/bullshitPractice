@@ -1,5 +1,5 @@
 <div class="weekly-list">
 {{ range sort (where .Site.RegularPages "Params.week" "gt" 0) "Params.week" }}
-<a class="weekly-entry" href="{{ .RelPermalink }}"><span class="weekly-number">0{{ .Params.week }}</span><h2>{{ .Params.exhibitTitle }}</h2><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time><span aria-hidden="true">→</span></a>
+<a class="weekly-entry" href="{{ .RelPermalink }}"><span class="weekly-number">0{{ .Params.week }}</span><h2>{{ .Params.exhibitTitle }}</h2><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01.02" }}<span class="entry-year"> / 2023</span></time><span class="entry-arrow" aria-hidden="true">↗</span></a>
 {{ end }}
 </div>
