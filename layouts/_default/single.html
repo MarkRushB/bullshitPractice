@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article class="story">
+  <header class="story-header"><p class="story-rubric">每 周 总 结{{ with .Params.week }}<span> / 0{{ . }}</span>{{ end }}</p><h1>{{ .Params.exhibitTitle | default .Title }}</h1><p class="story-deck">{{ if eq .Params.week 1 }}从一滴眼药水，到江河湖海。{{ else if eq .Params.week 2 }}生活里的烦心事，也值得被记录。{{ else if eq .Params.week 3 }}寻找外星人，也是重新看见身边的世界。{{ else }}记录那些被我们看见的日常。{{ end }}</p></header>
+  <div class="story-body">{{ .Content }}</div>
+  <nav class="story-nav" aria-label="其他每周专题">{{ range sort (where .Site.RegularPages "Params.week" "gt" 0) "Params.week" }}<a href="{{ .RelPermalink }}" {{ if eq $.RelPermalink .RelPermalink }}aria-current="page"{{ end }}><small>0{{ .Params.week }}</small>{{ .Params.exhibitTitle }}</a>{{ end }}</nav>
+</article>
+{{ end }}
