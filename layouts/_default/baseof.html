@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ if .IsHome }}看见 — 瞎拍照，说废话{{ else }}{{ .Title }} · 看见{{ end }}</title>
+<meta name="description" content="一次关于日常的集体摄影练习。三个夏日主题，68 张照片，还有照片背后的人和故事。">
+<meta property="og:title" content="{{ .Title }} · 看见"><meta property="og:image" content="{{ "photos/display/64c82bf5547b9.webp" | absURL }}">
+<link rel="canonical" href="{{ .Permalink }}"><link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ "exhibit.css" | relURL }}">
+<script src="{{ "exhibit.js" | relURL }}" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<header class="site-header"><a class="brand" href="{{ .Site.Home.RelPermalink }}">看见<span class="brand-dot"></span><small>A COLLECTIVE PHOTO DIARY</small></a><nav aria-label="主导航"><a href="{{ .Site.Home.RelPermalink }}#issues">每周专题</a><a href="{{ .Site.Home.RelPermalink }}#photographs">照片墙</a><a href="{{ .Site.Home.RelPermalink }}#about">关于</a></nav><span class="edition">SUMMER / 2023</span></header>
+<main id="main">{{ block "main" . }}{{ end }}</main>
+<footer><a class="footer-brand" href="{{ .Site.Home.RelPermalink }}">看见。</a><p>瞎拍照，说废话。<br><span>What is in your eyes?</span></p><a href="#main">回到顶部 ↑</a><small>2023 — 记录那些被我们看见的日常</small></footer>
+<dialog class="lightbox" aria-label="照片查看器"><div class="lightbox-bar"><span id="photo-counter" aria-live="polite"></span><button id="close-photo" aria-label="关闭照片">关闭 ×</button></div><button class="photo-prev" aria-label="上一张照片">←</button><img id="large-photo" alt=""><button class="photo-next" aria-label="下一张照片">→</button><div class="lightbox-caption"><span id="photo-caption"></span><a id="original-photo" target="_blank" rel="noopener">查看原图 ↗</a></div></dialog>
+</body></html>

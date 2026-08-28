@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="section listing"><p class="eyebrow">EXPLORE THE ARCHIVE</p><h1>{{ .Title }}</h1>{{ range .Data.Terms.Alphabetical }}<p><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }}) →</a></p>{{ end }}</section>{{ end }}

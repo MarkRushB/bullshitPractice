@@ -1,0 +1,4 @@
+{{- $src := .Destination -}}
+{{- if hasPrefix $src "photos/" -}}
+<a class="story-photo" href="{{ $src | relURL }}" data-photo="{{ $src | relURL }}" data-original="{{ printf "photos/original/%s" .Title | relURL }}" data-caption="{{ .Text }}"><img src="{{ $src | relURL }}" alt="{{ .Text }}" loading="lazy" decoding="async"></a>
+{{- else -}}<img src="{{ $src | safeURL }}" alt="{{ .Text }}" loading="lazy">{{- end -}}

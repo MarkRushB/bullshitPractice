@@ -1,4 +1,4 @@
-baseURL = "https://examplesite.com/"
+baseURL = "https://markrushb.github.io/bullshitPractice/"
 title = "看见"
 paginate = 5
 theme = "PaperMod"
@@ -33,7 +33,7 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
-comments = true
+comments = false
 hidemeta = false
 hideSummary = false
 showtoc = false

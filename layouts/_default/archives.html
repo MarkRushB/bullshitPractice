@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="section listing"><p class="eyebrow">ALL STORIES</p><h1>所有记录</h1>{{ range .Site.RegularPages.ByDate.Reverse }}{{ if eq .Section "posts" }}<p><a href="{{ .RelPermalink }}">{{ .Date.Format "2006.01.02" }} / {{ .Title }} →</a></p>{{ end }}{{ end }}</section>{{ end }}
