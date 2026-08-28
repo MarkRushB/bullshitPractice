@@ -11,7 +11,7 @@
 </head>
 <body>
 <a class="skip" href="#main">跳到正文</a>
-<header class="site-header"><a class="brand" href="{{ .Site.Home.RelPermalink }}">看见</a><nav aria-label="主导航"><a href="{{ .Site.Home.RelPermalink }}#issues">每周</a><a href="{{ .Site.Home.RelPermalink }}#photographs">影像</a><a href="{{ .Site.Home.RelPermalink }}#about">关于</a></nav></header>
+<header class="site-header"><a class="brand" href="{{ .Site.Home.RelPermalink }}">看见</a><nav aria-label="主导航"><a href="{{ .Site.Home.RelPermalink }}#issues">每周总结</a></nav></header>
 <main id="main">{{ block "main" . }}{{ end }}</main>
 <footer><span>看见 · 2023</span><a href="#main">回到顶部 ↑</a></footer>
 <dialog class="lightbox" aria-label="照片查看器"><div class="lightbox-bar"><span id="photo-counter" aria-live="polite"></span><button id="close-photo" aria-label="关闭照片">关闭 ×</button></div><button class="photo-prev" aria-label="上一张照片">←</button><img id="large-photo" alt=""><button class="photo-next" aria-label="下一张照片">→</button><div class="lightbox-caption"><span id="photo-caption"></span><a id="original-photo" target="_blank" rel="noopener">查看原图 ↗</a></div></dialog>

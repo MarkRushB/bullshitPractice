@@ -1,19 +1,6 @@
 {{ define "main" }}
-<section class="opening">
-  <div class="opening-copy"><h1>瞎拍照，<br>说废话。</h1><p>一群朋友，三个主题。<br>一些日常，一些被留下的瞬间。</p></div>
-  <figure class="opening-photo"><img src="{{ "photos/display/64c82bf5547b9.webp" | relURL }}" alt="蓝色水族馆前，人们仰望游过的鱼群" fetchpriority="high" width="1600" height="1200"><figcaption><span>玻璃缸里的人们</span><span>2023.08 / 玉液琼浆</span></figcaption></figure>
+<section class="weekly-index section" id="issues">
+  <header class="weekly-heading"><h1>每周总结</h1><p>2023 年夏天 · 瞎拍照，说废话。</p></header>
+  {{ partial "weekly-list.html" . }}
 </section>
-<section class="section" id="issues">
-  <div class="section-heading"><h2>每周</h2><span>三个夏日主题</span></div>
-  <div class="issue-grid">{{ range sort (where .Site.RegularPages "Params.week" "gt" 0) "Params.week" }}
-    <a class="issue-card" href="{{ .RelPermalink }}"><div class="issue-image"><img src="{{ .Params.exhibitCover | relURL }}" alt="{{ .Params.exhibitTitle }}专题封面" loading="lazy"></div><div class="issue-meta"><span>0{{ .Params.week }}</span><span>{{ .Date.Format "2006.01.02" }}</span></div><h3>{{ .Params.exhibitTitle }}</h3></a>
-  {{ end }}</div>
-</section>
-<section class="section" id="photographs">
-  <div class="section-heading"><h2>影像</h2><span id="gallery-count" aria-live="polite">68 张照片 · 点击放大</span></div>
-  <div class="filters" role="group" aria-label="按周筛选照片"><button data-filter="all" aria-pressed="true">全部</button><button data-filter="1" aria-pressed="false">玉液琼浆</button><button data-filter="2" aria-pressed="false">真他妈烦</button><button data-filter="3" aria-pressed="false">寻找外星人</button></div>
-  <div class="photo-grid">{{ range .Site.Data.photos }}<button class="photo-tile" data-week="{{ .week }}" data-photo="{{ .display | relURL }}" data-original="{{ .original | relURL }}" data-caption="{{ .title }}" aria-label="放大：{{ .title }}"><img src="{{ .thumb | relURL }}" alt="{{ .title }}" width="{{ .width }}" height="{{ .height }}" loading="lazy"><span>{{ .title }}</span></button>{{ end }}</div>
-  <noscript><p>启用 JavaScript 可以筛选、放大照片；完整照片和原文也可在各周专题中阅读。</p></noscript>
-</section>
-<section class="about section" id="about"><h2>关于看见</h2><p>2023 年夏天，我们每周选一个主题，<br>用照片交换各自眼里的世界。<br>这里留下了三篇总结，与 68 张照片。</p></section>
 {{ end }}

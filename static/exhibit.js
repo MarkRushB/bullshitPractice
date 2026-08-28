@@ -26,9 +26,4 @@
     if (event.key === 'ArrowLeft') { event.preventDefault(); show(current - 1); }
     if (event.key === 'ArrowRight') { event.preventDefault(); show(current + 1); }
   });
-  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
-    document.querySelectorAll('[data-filter]').forEach(other => other.setAttribute('aria-pressed', String(other === button)));
-    tiles.forEach(tile => { tile.hidden = button.dataset.filter !== 'all' && tile.dataset.week !== button.dataset.filter; });
-    document.querySelector('#gallery-count').textContent = `${visible().length} 张照片 · 点击放大`;
-  }));
 })();

@@ -23,10 +23,15 @@ class Assets(HTMLParser):
             if a.get(key): self.urls.append(a[key])
         if 'data-photo' in a: self.photos+=1
 
-for page, count in [('index.html',68),('posts/week1/index.html',30),('posts/week2/index.html',19),('posts/week3/index.html',19)]:
+for page, count in [('index.html',0),('posts/week1/index.html',30),('posts/week2/index.html',19),('posts/week3/index.html',19)]:
     html=(root/'_site'/page).read_text(encoding='utf-8')
     assert 'bu.dusays.com' not in html and '7bu.top' not in html
     assert 'Bearer ' not in html and '@waline' not in html
+    assert 'data-filter' not in html and 'id="photographs"' not in html
+    if page == 'index.html':
+        assert 'weekly-entry' in html
+        for week in (1,2,3):
+            assert f'/posts/week{week}/' in html
     parser=Assets(); parser.feed(html)
     assert parser.photos==count, (page,parser.photos)
     for url in parser.urls:
